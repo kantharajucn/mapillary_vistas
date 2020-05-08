@@ -14,12 +14,12 @@ setuptools.setup(
     url="https://github.com/kantharajucn/mapillary_vistas",
     packages=setuptools.find_packages(),
     install_requires=[
-        'numpy == 1.18.1',
-        'tqdm == 4.43.0',
-        'scikit-learn == 0.22.2',
-        'pillow == 7.0.0',
-        'matplotlib == 3.2.0',
-        'scipy == 1.4.1'
+        'numpy >= 1.16',
+        'tqdm',
+        'scikit-learn',
+        'pillow ',
+        'matplotlib',
+        'scipy'
       ],
     include_package_data=True,
     entry_points={
