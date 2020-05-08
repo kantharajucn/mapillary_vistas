@@ -21,7 +21,10 @@ setuptools.setup(
         'matplotlib == 3.2.0',
         'scipy == 1.4.1'
       ],
-      include_package_data=True,
+    include_package_data=True,
+    entry_points={
+        'console_scripts': ['vistasEvaluate=mapillary_vistas.tools.evaluation:main'],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: MIT",
