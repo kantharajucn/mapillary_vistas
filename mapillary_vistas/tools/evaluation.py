@@ -1,8 +1,8 @@
 
+import argparse
+import json
 import os
 import sys
-import json
-import argparse
 from argparse import RawTextHelpFormatter
 
 # enable absolute mapillary_vistas imports
@@ -123,8 +123,6 @@ Not specifying a number will use all available cores""")
         labels,
         args,
     )
-
-import cProfile, pstats, StringIO
 
 if __name__ == '__main__':
     # pr = cProfile.Profile()
